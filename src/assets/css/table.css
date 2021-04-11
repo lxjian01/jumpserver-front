@@ -1,0 +1,76 @@
+/***table***/
+.table-card{
+  clear: both;
+  margin-top: 10px;
+  width: 100%;
+}
+/********************  el-card header ***************************/
+.table-card .header{
+  clear: both;
+  height: 40px;
+  line-height: 40px;
+}
+.table-card .header > span{
+  font-size: 14px;
+  font-weight: bold;
+}
+.table-card .header ul{
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.table-card .header ul li:first-child{
+  border-left: none;
+}
+.table-card .header ul li{
+  width: auto;
+  float: left;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  border-left: 1px solid #ebeef5;
+  padding: 0 10px;
+}
+.table-card .header ul li a{
+  text-decoration: none;
+  color: #303133;
+}
+.table-card .header ul li i{
+  font-size: 14px;
+  font-weight: bold;
+}
+.table-card .header ul li:hover{
+  cursor: pointer;
+  background-color: #f3f3f3;
+}
+/********************  el-card body ***************************/
+.table-card .el-table tr td, .el-table tr th{
+  padding: 0;
+  height: 44px;
+  line-height: 44px;
+}
+.table-card .el-table th, .el-table thead tr{
+  background-color: #f5f7fa;
+}
+.table-card .el-card__body {
+  padding: 0;
+}
+.table-card .el-card__body .el-table--border {
+  border: none;
+}
+/********************  el-pagination ***************************/
+.table-card .el-pagination {
+  padding: 10px 20px;
+  margin: 0;
+  clear: both;
+}
+
+.table-card .el-pagination .el-select .el-input {
+  width: 85px;
+  padding: 0;
+}
+
+.table-card .el-pagination .el-select .el-input .el-input__inner {
+  height: 22px;
+  line-height: 22px;
+}

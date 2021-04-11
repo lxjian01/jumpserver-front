@@ -1,0 +1,44 @@
+/* el-tree */
+.tree-card{
+  clear: both;
+  width: 100%;
+}
+/********************  el-card header ***************************/
+.tree-card .header{
+  clear: both;
+  height: 40px;
+  line-height: 40px;
+}
+.tree-card .header ul{
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.tree-card .header ul li:first-child{
+  border-left: none;
+}
+.tree-card .header ul li{
+  width: auto;
+  float: left;
+  margin-top: 4px;
+  margin-right: 10px;
+  height: 32px;
+  line-height: 32px;
+  border-left: 1px solid #ebeef5;
+  padding: 0;
+}
+.tree-card .header ul li:hover{
+  cursor: pointer;
+  background-color: #f3f3f3;
+}
+
+.tree-card .el-tree-node__content{
+  height: 30px;
+}
+
+.tree-card .el-card__header {
+  padding: 2px 10px;
+}
+.tree-card .el-card__body {
+  padding: 0;
+}

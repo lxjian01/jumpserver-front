@@ -1,0 +1,238 @@
+/*
+  create by Egret in 2018/5/7
+  reset           样式重置
+  layout          布局
+  public          公用样式
+  reset-uiBank    第三方ui库,插件样式修改
+*/
+
+/* ----------------------- reset ----------------------- */
+
+* {
+  padding: 0;
+  margin: 0
+}
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app{
+  height: 100%;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: Microsoft YaHei;
+}
+
+a {
+  color:#428bca;
+}
+a:hover{
+  cursor: pointer;
+}
+/***search-bar***/
+.search-bar {
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+.search-bar .el-form-item{
+  margin-bottom: 0;
+}
+.search-bar .el-form-item label{
+  margin-left: 10px;
+}
+.search-bar .el-form-item .el-input {
+
+}
+.search-bar .el-form .el-button{
+  margin-left: 15px;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix { /*兼容 IE*/
+  zoom: 1;
+}
+
+.set-left {
+  float: left
+}
+.text-align-center {
+  text-align: center;
+}
+.set-right {
+  float: right
+}
+
+.vue-contextmenu-listWrapper .context-menu-list button i{
+  margin-top: 3px;
+}
+
+.default{
+  background-color: #abbac3!important;
+  border-radius: 10px;
+  font-size: .85rem;
+  color:#fff;
+  padding: 3px 6px;
+}
+.primary{
+  background-color: #428bca!important;
+  border-radius: 10px;
+  font-size: .85rem;
+  color:#fff;
+  padding: 3px 6px;
+}
+.info{
+  background-color: #6fb3e0!important;
+  border-radius: 10px;
+  font-size: .85rem;
+  color:#fff;
+  padding: 3px 6px;
+}
+.success{
+  background-color: #87b87f!important;
+  border-radius: 10px;
+  font-size: .85rem;
+  color:#fff;
+  padding: 3px 6px;
+}
+.warning{
+  background-color: #ffb752!important;
+  border-radius: 10px;
+  font-size: .85rem;
+  color:#fff;
+  padding: 3px 6px;
+}
+.danger{
+  background-color: #d3413b!important;
+  border-radius: 10px;
+  font-size: .85rem;
+  color:#fff;
+  padding: 3px 6px;
+}
+.pink{
+  background-color: #b73766!important;
+  border-radius: 10px;
+  font-size: .85rem;
+  color:#fff;
+  padding: 3px 6px;
+}
+.inverse{
+  background-color: #555!important;
+  border-radius: 10px;
+  font-size: .85rem;
+  color:#fff;
+  padding: 3px 6px;
+}
+.purple{
+  background-color: #9585bf!important;
+  border-radius: 10px;
+  font-size: .85rem;
+  color:#fff;
+  padding: 3px 6px;
+}
+.yellow{
+  background-color: #fee188!important;
+  border-radius: 10px;
+  font-size: .85rem;
+  color:#fff;
+  padding: 3px 6px;
+}
+.grey{
+  background-color: #a0a0a0!important;
+  border-radius: 10px;
+  font-size: .85rem;
+  color:#fff;
+  padding: 3px 6px;
+}
+.light{
+  background-color: #e7e7e7!important;
+  border-radius: 10px;
+  font-size: .85rem;
+  color:#fff;
+  padding: 3px 6px;
+}
+.white{
+  border-width: 1px;
+  border-color: #CCC;
+  color: #444!important;
+  text-shadow: none!important;
+  background-color: #FFF!important;
+}
+.link{
+  border: none!important;
+  background: transparent none!important;
+  color: #08c!important;
+  text-shadow: none!important;
+  padding: 4px 12px!important;
+  line-height: 20px!important;
+}
+
+.el-button-purple{
+  background-color: #9585bf!important;
+  border-color: #9585bf!important;
+  color: #FFF!important;
+}
+.el-button-purple:hover{
+  background-color: #AD9EBF!important;
+  border-color: #AD9EBF!important;
+  color: #FFF!important;
+}
+
+.el-button-pink{
+  background-color: #b73766!important;
+  border-color: #b73766!important;
+  color: #FFF!important;
+}
+.el-button-pink:hover{
+  background-color: #B7678C!important;
+  border-color: #B7678C!important;
+  color: #FFF!important;
+}
+.pre-log{
+  overflow: auto;
+  background-color: #272822;
+  color: #fff;
+}
+
+.el-dropdown-link {
+  cursor: pointer;
+  color: #409EFF;
+}
+.el-icon-arrow-down {
+  font-size: 12px;
+}
+
+
