@@ -14,10 +14,12 @@ NProgress.configure({ easing: 'ease', speed: 500, showSpinner: false })
 router.beforeEach((to, from, next) => {
   // 开启进度条
   NProgress.start();
-  Cookies.set('login_user_name', 'jianxiaoli', { expires: 7, path:'/',domain: '.jianxiaoli.com' });
-  Cookies.set('login_token', 'login_token', { expires: 7, path:'/',domain: '.jianxiaoli.com' });
+  Cookies.set('login_user_name', 'lxj', { expires: 7, path:'/',domain: '.lxj.com' });
+  Cookies.set('login_token', 'login_token', { expires: 7, path:'/',domain: '.lxj.com' });
   let login_token=Cookies.get("login_token");
+  console.info(login_token)
   if(login_token===undefined || login_token===null || login_token===""){
+
     Message({type:'error',message:"请先登陆"});
     Cookies.set("return_url",process.env.FRONT_ROOT + '/#' + to.fullPath,{ domain: process.env.COOKIE_DOMAIN });
     setTimeout(() => {

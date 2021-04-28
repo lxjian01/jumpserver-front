@@ -2,7 +2,7 @@
   "name": "jumpserver-front",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "jianxiaoli",
+  "author": "lxj",
   "private": true,
   "scripts": {
     "local": "webpack-dev-server --inline --progress --config build/webpack.local.conf.js",
