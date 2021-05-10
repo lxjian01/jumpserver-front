@@ -134,7 +134,7 @@
       resize(rows,cols){
         this.resizeParams.rows = rows
         this.resizeParams.cols = cols
-        this.resizeParams.leight = document.body.scrollHeight
+        this.resizeParams.height = document.body.scrollHeight
         this.resizeParams.width = document.body.scrollWidth
         let params = JSON.stringify(this.resizeParams)
         console.log(params)
